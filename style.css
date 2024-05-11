@@ -59,7 +59,7 @@
 		/* ===== last pg ===== */
 		#frame {
 			background-image: url("./flowers.png");
-			margin: 20px auto;
+			margin: 20px auto 50px;
 			width: auto;
 			height: 100%;
 		}
