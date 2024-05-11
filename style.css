@@ -59,7 +59,7 @@
 		/* ===== last pg ===== */
 		#frame {
 			background-image: url("./flowers.png");
-			margin: 0 auto;
+			margin: 20px auto;
 			width: auto;
 			height: 100%;
 		}
@@ -75,7 +75,7 @@
 		.postdate, .sign {
 			text-align: right;
 		}
-		#box-container > p {
+		.postdate {
 			margin-top: 150px;
 		}
 		p {
