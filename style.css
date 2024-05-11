@@ -1,0 +1,92 @@
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			width: 100%;
+			margin: 0 auto;
+		}
+		/* ===== main pag ===== */
+		#env {
+			background-color: #FF77FF;
+			height: 600px;
+			margin: 50px auto;
+			width: 90%;
+		}
+		#base-container {
+			border: 5px solid #1A1110;
+			background-color: #FFFAF0;
+			height: 400px;
+			width: 600px;
+			margin: 0 auto;
+			position: relative;
+			top: 100px;
+		}
+		.inner-curve-left {
+			border: 2px solid #1A1110;
+			height: 1px;
+			width: 250px;
+			position: absolute;
+			top: 73px;
+			left: -20px;
+			transform: rotate(35deg);
+		}
+		.inner-curve-right {
+			border: 2px solid #1A1110;
+			height: 1px;
+			width: 250px;
+			position: absolute;
+			top: 73px;
+			right: -20px;
+			transform: rotate(-35deg);
+		}
+		.semi-curve {
+			border-bottom: 5px solid #1A1110;
+			border-radius: 75px;
+			height: 100px;
+			width: 210px;
+			position: absolute;
+			top: 60px;
+			left: 190px;
+		}
+		h2 {
+			font-family: "Sarabun", cursive;
+			position: relative;
+			top: 130px;
+			text-align: center;
+		}
+		/* ===== last pg ===== */
+		#frame {
+			background-image: url("./flowers.png");
+			margin: auto;
+			width: auto;
+			height: 100%;
+		}
+		#box-container {
+			border: 2px solid #444C38;
+			background-color: #FFFAF0;
+			height: 650px;
+			width: 500px;
+			margin: 0 auto;
+			position: relative;
+			top: 50px;
+		}
+		.postdate, .sign {
+			text-align: right;
+		}
+		#box-container > p {
+			margin-top: 150px;
+		}
+		p {
+			font-family: "Dancing Script", cursive;
+			font-size: 16pt;
+			text-align: justify;
+			line-height: 2.5;
+			margin: 0 60px;
+		}
+		audio {
+			position: relative;
+			top: 20px;
+			left: 40px;
+		}
